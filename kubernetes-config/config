@@ -4,36 +4,6 @@ clusters:
     certificate-authority: ca.crt
     extensions:
     - extension:
-        last-update: Thu, 10 Nov 2022 12:44:35 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: cluster_info
-    server: https://192.168.67.2:8443
-  name: Ejercicio1
-- cluster:
-    certificate-authority: ca.crt
-    extensions:
-    - extension:
-        last-update: Thu, 10 Nov 2022 13:26:24 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: cluster_info
-    server: https://192.168.76.2:8443
-  name: Ejercicio2
-- cluster:
-    certificate-authority: ca.crt
-    extensions:
-    - extension:
-        last-update: Thu, 10 Nov 2022 09:44:25 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: cluster_info
-    server: https://192.168.58.2:8443
-  name: ejercicios
-- cluster:
-    certificate-authority: ca.crt
-    extensions:
-    - extension:
         last-update: Tue, 15 Nov 2022 08:30:26 CET
         provider: minikube.sigs.k8s.io
         version: v1.28.0
@@ -41,39 +11,6 @@ clusters:
     server: https://192.168.85.2:8443
   name: javaprofile
 contexts:
-- context:
-    cluster: Ejercicio1
-    extensions:
-    - extension:
-        last-update: Thu, 10 Nov 2022 12:44:35 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: context_info
-    namespace: default
-    user: Ejercicio1
-  name: Ejercicio1
-- context:
-    cluster: Ejercicio2
-    extensions:
-    - extension:
-        last-update: Thu, 10 Nov 2022 13:26:24 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: context_info
-    namespace: default
-    user: Ejercicio2
-  name: Ejercicio2
-- context:
-    cluster: ejercicios
-    extensions:
-    - extension:
-        last-update: Thu, 10 Nov 2022 09:44:25 CET
-        provider: minikube.sigs.k8s.io
-        version: v1.28.0
-      name: context_info
-    namespace: default
-    user: ejercicios
-  name: ejercicios
 - context:
     cluster: javaprofile
     extensions:
