@@ -15,7 +15,7 @@ spec:
      spec:
          containers:
            - name: spring-boot-app-cont
-             image: "dberenguerdevcenter/spring-boot-app:latest"
+             image: "lhamaoka/spring-boot-app:latest"
              imagePullPolicy: Always
   replicas: 1
   selector:
