@@ -91,5 +91,5 @@ preferences: {}
 users:
 - name: javaprofile
   user:
-    client-certificate: ./minikube/client.crt
-    client-key: ./minikube/client.key
+    client-certificate: .minikube/client.crt
+    client-key: .minikube/client.key
