@@ -11,7 +11,7 @@ clusters:
     server: https://192.168.67.2:8443
   name: Ejercicio1
 - cluster:
-    certificate-authority: /home/lifecycle/.minikube/ca.crt
+    certificate-authority: ca.crt
     extensions:
     - extension:
         last-update: Thu, 10 Nov 2022 13:26:24 CET
@@ -21,7 +21,7 @@ clusters:
     server: https://192.168.76.2:8443
   name: Ejercicio2
 - cluster:
-    certificate-authority: /home/lifecycle/.minikube/ca.crt
+    certificate-authority: ca.crt
     extensions:
     - extension:
         last-update: Thu, 10 Nov 2022 09:44:25 CET
@@ -31,7 +31,7 @@ clusters:
     server: https://192.168.58.2:8443
   name: ejercicios
 - cluster:
-    certificate-authority: /home/lifecycle/.minikube/ca.crt
+    certificate-authority: ca.crt
     extensions:
     - extension:
         last-update: Tue, 15 Nov 2022 08:30:26 CET
