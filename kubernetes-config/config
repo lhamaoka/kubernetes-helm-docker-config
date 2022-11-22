@@ -4,29 +4,29 @@ clusters:
     certificate-authority: ca.crt
     extensions:
     - extension:
-        last-update: Fri, 18 Nov 2022 08:15:37 CET
+        last-update: Tue, 22 Nov 2022 18:56:48 CET
         provider: minikube.sigs.k8s.io
         version: v1.28.0
       name: cluster_info
     server: https://192.168.49.2:8443
-  name: teralco
+  name: miperfil
 contexts:
 - context:
-    cluster: teralco
+    cluster: miperfil
     extensions:
     - extension:
-        last-update: Fri, 18 Nov 2022 08:15:37 CET
+        last-update: Tue, 22 Nov 2022 18:56:48 CET
         provider: minikube.sigs.k8s.io
         version: v1.28.0
       name: context_info
     namespace: default
-    user: teralco
-  name: teralco
-current-context: teralco
+    user: miperfil
+  name: miperfil
+current-context: miperfil
 kind: Config
 preferences: {}
 users:
-- name: teralco
+- name: miperfil
   user:
-    client-certificate: minikube/client.crt
+    client-certificate: minukube/client.crt
     client-key: minikube/client.key
