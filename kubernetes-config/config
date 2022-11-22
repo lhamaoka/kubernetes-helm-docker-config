@@ -28,5 +28,5 @@ preferences: {}
 users:
 - name: miperfil
   user:
-    client-certificate: minukube/client.crt
+    client-certificate: minikube/client.crt
     client-key: minikube/client.key
