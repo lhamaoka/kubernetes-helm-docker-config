@@ -9,10 +9,10 @@ clusters:
         version: v1.28.0
       name: cluster_info
     server: https://192.168.49.2:8443
-  name: teralco
+  name: miperfil3
 contexts:
 - context:
-    cluster: teralco
+    cluster: miperfil3
     extensions:
     - extension:
         last-update: Wed, 23 Nov 2022 10:04:17 CET
@@ -20,13 +20,13 @@ contexts:
         version: v1.28.0
       name: context_info
     namespace: default
-    user: teralco
-  name: teralco
-current-context: teralco
+    user: miperfil3
+  name: miperfil3
+current-context: miperfil3
 kind: Config
 preferences: {}
 users:
-- name: teralco
+- name: miperfil3
   user:
     client-certificate: minikube/client.crt
     client-key: minikube/client.key
